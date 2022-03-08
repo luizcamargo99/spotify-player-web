@@ -17,3 +17,5 @@ By clicking on the green connect button, you can already check the music that is
 In addition, our interface is mobile-responsive.
 
 ![alt text](https://i.ibb.co/0XGy7JF/Whats-App-Image-2022-03-08-at-13-03-48.jpg)
+
+All this done with a lot of fun, in addition to the Spotify API allows you to create several features and build several creative applications. In this case, I created the player to be able to use it in my routine, it's been pretty cool.
