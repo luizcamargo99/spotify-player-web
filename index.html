@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="../Scripts/player.js"></script>
+      <link rel="stylesheet" href="./Styles/global.css">
+      <link rel="shortcut icon" href="./Images/icon.png" type="image/x-icon">
+      <title>Spotify Player</title>
+   </head>
+   <body onload="inicializar()">
+      <div>
+         <header>
+            <img src="./Images/logo.png" alt="" id="logo">
+         </header>
+         <div class="content">
+            <div id="dispositivos">
+               <h2 id="dispositivos-titulo">Dispositivos</h2>
+               <table id="tabelaDispositivos" style="display: none;">
+                  <thead>
+                     <tr>
+                        <th>Nome</th>
+                        <th>Tipo</th>
+                        <th></th>
+                     </tr>
+                  </thead>
+                  </tfoot>
+                  <tbody id="bodyTabelaDispositivos">
+                  </tbody>
+               </table>
+               <p id="zero-dispositivos" style="display: none;">Não há dispositivos disponíveis no momento...</p>
+            </div>
+            <div id="music-player" style="display: none;">
+               <img id="capa-album">
+               <h1 id="nome-musica"></h1>
+               <label id="artista"></label>    
+               <p id="posicao-atual" class="tempo-musica"></p>
+               <input type="range" id="tempo-range" min="0" onchange="mudarPosicao(value)">
+               <p id="posicao-restante" class="tempo-musica"></p>
+               <div class="controlador-musica">                  
+                  <button class="button" id="voltar" onclick="voltarMusica()"> <img src="./Images/retroceder.png"> </button>
+                  <button class="button" id="pausar" onclick="pausarMusica()"><img src="./Images/pausa.png" id="pausar"> </button>
+                  <button class="button" id="tocar" onclick="tocarMusica()"><img src="./Images/botao-play.png" id="pausar"> </button>                          
+                  <button class="button" id="pular" onclick="pularMusica()"><img src="./Images/avanco-rapido.png"> </button>
+               </div>
+               <p id="dispositivo-conectado"></p>
+               <p id="autor">Desenvolvido por Luiz Camargo </p>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

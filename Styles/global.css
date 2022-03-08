@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(43, 43, 43);
+    color: white;
+}
+header {
+    background: #000;
+    height: 80px;
+}
+.content {
+    padding: 3%;
+}
+#logo {
+    height: 40px;
+    padding: 1.5% 0 0 4.5%;
+}
+#dispositivos {
+    border-collapse: collapse;
+    display: grid;
+    text-align: center;
+}
+#dispositivos td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.button {
+    background-color: #1ED760;
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+button {
+    cursor: pointer;
+}
+button:hover{
+    background-color: #178a3f;
+}
+#dispositivos th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #1ED760;
+    color: white;
+}
+#dispositivos-titulo {
+    padding-bottom: 30px;
+}
+#music-player {
+    text-align: center;
+}
+.controlador-musica {
+    padding-top: 2%;
+}
+#artista {
+    color: #d7d7d7;
+    display: block;
+}
+#autor, #dispositivo-conectado {
+    padding-top: 10px;
+    font-size: 12px;
+}
+#tempo-range {
+    margin-top: 20px;
+    width: 20%;
+}
+.tempo-musica {
+    display: inline;
+    font-size: 10px;
+}
+@media (max-width: 700px) {
+    #logo {
+        margin: 1rem;
+   }
+    #tempo-range {
+        width: 65%;
+   }
+    .content {
+        margin-top: 2rem;
+   }
+}
