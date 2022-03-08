@@ -1,6 +1,6 @@
 # Spotify Player Web
 
-Web application created with HTML, CSS and Javascript. In order to control Spotify from an account. With features like pausing music, switching to the next song, and even changing the tempo of the song and updating on the device that's playing. All this consuming the API of Spotify itself.
+Web application created with HTML, CSS and Javascript. In order to control Spotify from an account. With features like pausing music, switching to the next song, and even changing the time of the song and updating on the device that's playing. All this consuming the API of Spotify itself.
 
 In order to validate the token and be able to control your device linked to your account through the application, simply fill in the fields below with the values provided by Spotify in our script file.
 
