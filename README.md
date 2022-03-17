@@ -23,19 +23,23 @@ In order to control Spotify from an account. With features like pausing music, s
 
 In order to validate the token and be able to control your device linked to your account through the application, simply fill in the fields below with the values provided by Spotify in our script file.
 
-![alt text](https://i.ibb.co/1Jd8q9b/code-snapshot.png)
+![code-snapshot](https://user-images.githubusercontent.com/59785233/158895558-d60ea34d-6d68-40de-8e1f-22800466fdab.png)
+
 
 So, everything validated and you entering your Spotify from your cell phone, for example, the system already locates the active device.
 
-![alt text](https://i.ibb.co/tqGzV46/Whats-App-Image-2022-03-08-at-12-48-06-5.jpg)
+![WhatsApp Image 2022-03-08 at 12 48 06 (5)](https://user-images.githubusercontent.com/59785233/158895542-8d4cff1c-e2c7-4af7-9203-f5c531906568.jpeg)
+
 
 By clicking on the green connect button, you can already check the music that is playing in real time on the device. In the case of the example, my cell phone ("Luiz's iPhone").
 
-![alt text](https://i.ibb.co/pdC94T4/Whats-App-Image-2022-03-08-at-12-48-06-4.jpg)
+![WhatsApp Image 2022-03-08 at 12 48 06 (4)](https://user-images.githubusercontent.com/59785233/158895529-f4bfe066-2da4-4d0a-9ea7-3e46d9703b44.jpeg)
+
 
 In addition, our interface is mobile-responsive.
 
-![alt text](https://i.ibb.co/0XGy7JF/Whats-App-Image-2022-03-08-at-13-03-48.jpg)
+![WhatsApp Image 2022-03-08 at 13 03 48](https://user-images.githubusercontent.com/59785233/158895500-19652743-a7bb-40a8-964b-4e8271368951.jpeg)
+
 
 All this done with a lot of fun, in addition to the Spotify API allows you to create several features and build several creative applications. In this case, I created the player to be able to use it in my routine, it's been pretty cool.
 
